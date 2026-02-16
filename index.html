@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CourseSync — AI-powered course management for students. Sync assignments from Canvas LMS and BYU Learning Suite, chat with an AI tutor about your course materials, and stay on top of everything.">
+    <meta name="author" content="CourseSync">
+    <meta name="theme-color" content="#0a0e17">
+    <title>CourseSync — AI-Powered Course Management for Students</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">CourseSync</a>
+            <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Toggle navigation">&#9776;</button>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#download" class="nav-cta">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="project-hero">
+        <div class="hero-container">
+            <div class="app-icon-placeholder">CS</div>
+            <h1 class="project-title">CourseSync</h1>
+            <p class="project-subtitle">AI-Powered Course Management for Students</p>
+            <p class="hero-description">
+                Sync your courses from Canvas LMS and BYU Learning Suite, then ask an AI tutor anything about your course materials. Assignments, announcements, grades, documents — all in one place.
+            </p>
+            <div class="project-badge-container">
+                <span class="hero-badge badge-platform">iOS</span>
+                <span class="hero-badge badge-platform">Android</span>
+                <span class="hero-badge badge-platform">Windows</span>
+                <span class="hero-badge badge-platform">macOS</span>
+            </div>
+            <div class="hero-cta-group">
+                <a href="#download" class="btn btn-primary">Download Now</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="content-section" id="features">
+        <h2 class="section-title section-title-centered">Everything You Need to Succeed</h2>
+        <p class="section-description section-description-centered">
+            CourseSync brings together course management and AI-powered tutoring in one seamless experience.
+        </p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-light)"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg></span>
+                <h3 class="feature-title">Assignment Sync</h3>
+                <p class="feature-description">
+                    Automatically sync assignments, grades, and announcements from Canvas LMS and BYU Learning Suite. See everything in a unified dashboard with smart deadline tracking.
+                </p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-light)"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><path d="M8 10h.01M12 10h.01M16 10h.01"/></svg></span>
+                <h3 class="feature-title">AI Chat Tutor</h3>
+                <p class="feature-description">
+                    Ask questions about your course materials and get instant, context-aware answers with source citations. Powered by RAG technology with support for OpenAI, Anthropic, and Google models.
+                </p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-light)"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                <h3 class="feature-title">Smart Documents</h3>
+                <p class="feature-description">
+                    Automatically process and index PDFs, Word documents, PowerPoint slides, and Excel files. Upload your own materials or let CourseSync sync them from your courses.
+                </p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-light)"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></span>
+                <h3 class="feature-title">Multi-Platform</h3>
+                <p class="feature-description">
+                    Native apps for iOS, Android, Windows, and macOS. A consistent, high-performance experience on whichever device you prefer.
+                </p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-light)"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg></span>
+                <h3 class="feature-title">Cloud Sync</h3>
+                <p class="feature-description">
+                    Sync your data across up to 5 devices with secure magic-link authentication. Start studying on your laptop and pick up right where you left off on your phone.
+                </p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent-light)"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></span>
+                <h3 class="feature-title">Privacy First</h3>
+                <p class="feature-description">
+                    Your course data stays local on your device. LMS credentials are stored in encrypted secure storage and never sent to our servers. Bring your own API keys for full control.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="content-section" id="how-it-works">
+        <h2 class="section-title section-title-centered">How It Works</h2>
+        <p class="section-description section-description-centered">
+            Get up and running in minutes. Three simple steps to transform your study workflow.
+        </p>
+        <div class="steps-container">
+            <div class="step-item">
+                <div class="step-number">1</div>
+                <h3 class="step-title">Connect Your Courses</h3>
+                <p class="step-description">
+                    Link your Canvas LMS account with an API token and sign in to BYU Learning Suite. CourseSync handles the rest.
+                </p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Sync Everything</h3>
+                <p class="step-description">
+                    CourseSync automatically pulls in your courses, assignments, announcements, grades, documents, and syllabi.
+                </p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">3</div>
+                <h3 class="step-title">Ask the AI</h3>
+                <p class="step-description">
+                    Chat with an AI tutor that understands your actual course materials. Get cited answers, study help, and concept explanations instantly.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chat Detail -->
+    <section class="content-section">
+        <h2 class="section-title">Intelligent AI Tutoring</h2>
+        <p class="section-description">
+            CourseSync's AI chat goes beyond generic answers. It uses Retrieval-Augmented Generation (RAG) to search your actual course documents and provide responses grounded in your specific materials.
+        </p>
+        <div class="professional-features">
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Source Citations</h3>
+                <p class="pro-feature-description">
+                    Every answer includes citations linking back to the exact documents and passages used. Verify the AI's response against your original materials with a single tap.
+                </p>
+            </div>
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Multiple AI Providers</h3>
+                <p class="pro-feature-description">
+                    Choose from OpenAI (GPT-4o), Anthropic (Claude), or Google (Gemini). Switch between models on the fly and find the one that works best for your subject.
+                </p>
+            </div>
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Smart Suggested Prompts</h3>
+                <p class="pro-feature-description">
+                    Not sure where to start? Use built-in prompts to explain concepts, summarize readings, quiz yourself on material, or even pre-grade an assignment before submission.
+                </p>
+            </div>
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Persistent Conversations</h3>
+                <p class="pro-feature-description">
+                    Your chat history is saved and synced across devices. Edit previous messages, regenerate responses, and pick up study sessions right where you left off.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Document Processing -->
+    <section class="content-section">
+        <h2 class="section-title">Powerful Document Processing</h2>
+        <p class="section-description">
+            CourseSync doesn't just store your documents — it understands them. Every file is processed, chunked, and embedded into a vector database for instant semantic search.
+        </p>
+        <div class="professional-features">
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Auto-Sync from Courses</h3>
+                <p class="pro-feature-description">
+                    Documents are automatically pulled from Canvas modules, Learning Suite content pages, syllabi, and even external links referenced in your courses. No manual uploading needed.
+                </p>
+            </div>
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Multi-Format Support</h3>
+                <p class="pro-feature-description">
+                    Process PDFs, Word documents (DOCX), PowerPoint presentations (PPTX), Excel spreadsheets (XLSX), plain text, Markdown, and HTML. Upload your own study materials too.
+                </p>
+            </div>
+            <div class="pro-feature-item">
+                <h3 class="pro-feature-title">Vector Search</h3>
+                <p class="pro-feature-description">
+                    Documents are semantically chunked and embedded using OpenAI's embedding models, then stored in a local HNSW vector index for lightning-fast similarity search — all on your device.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="content-section" id="pricing">
+        <h2 class="section-title section-title-centered">Simple, Flexible Pricing</h2>
+        <p class="section-description section-description-centered">
+            Start free and upgrade when you're ready. Or bring your own API keys for unlimited access.
+        </p>
+
+        <!-- Billing Toggle -->
+        <div class="billing-toggle">
+            <span class="billing-label billing-label-active" id="monthly-label">Monthly</span>
+            <button class="toggle-switch" id="billing-toggle" aria-label="Toggle annual billing">
+                <span class="toggle-knob"></span>
+            </button>
+            <span class="billing-label" id="annual-label">Annual <span class="billing-save">Save 20%</span></span>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3 class="pricing-name">Free</h3>
+                <div class="pricing-price" data-monthly="0" data-annual="0">$0</div>
+                <p class="pricing-description">Get started at no cost</p>
+                <ul class="pricing-features">
+                    <li>20 AI messages per month</li>
+                    <li>3 document syncs</li>
+                    <li>1 device</li>
+                    <li>Assignment &amp; grade sync</li>
+                    <li>14-day trial of premium</li>
+                </ul>
+                <a href="#download" class="btn btn-secondary" style="width:100%;text-align:center;">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <h3 class="pricing-name">CourseSyncAI</h3>
+                <div class="pricing-price" data-monthly="10" data-annual="8">$10<span>/mo</span></div>
+                <p class="pricing-description">For everyday studying</p>
+                <ul class="pricing-features">
+                    <li>200 small model messages/mo</li>
+                    <li>20 large model messages/mo</li>
+                    <li>Unlimited document sync</li>
+                    <li>Up to 5 devices</li>
+                    <li>Cloud sync across devices</li>
+                </ul>
+                <a href="#download" class="btn btn-secondary" style="width:100%;text-align:center;">Get Started</a>
+            </div>
+            <div class="pricing-card featured">
+                <h3 class="pricing-name">CourseSyncAI Pro</h3>
+                <div class="pricing-price" data-monthly="15" data-annual="12">$15<span>/mo</span></div>
+                <p class="pricing-description">For power users</p>
+                <ul class="pricing-features">
+                    <li>500 small model messages/mo</li>
+                    <li>100 large model messages/mo</li>
+                    <li>Unlimited document sync</li>
+                    <li>Up to 5 devices</li>
+                    <li>Priority support</li>
+                </ul>
+                <a href="#download" class="btn btn-primary" style="width:100%;text-align:center;">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <h3 class="pricing-name">BYOK</h3>
+                <div class="pricing-price" data-monthly="5" data-annual="4">$5<span>/mo</span></div>
+                <p class="pricing-description">Bring Your Own Keys</p>
+                <ul class="pricing-features">
+                    <li>Unlimited AI messages</li>
+                    <li>Unlimited document sync</li>
+                    <li>Up to 5 devices</li>
+                    <li>Use your own OpenAI, Anthropic, or Google API keys</li>
+                    <li>Full data privacy — no proxy</li>
+                </ul>
+                <a href="#download" class="btn btn-secondary" style="width:100%;text-align:center;">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section" id="download">
+        <div class="download-container">
+            <h2 class="section-title section-title-centered">Download CourseSync</h2>
+            <p class="section-description section-description-centered">
+                Available on all major platforms. Download now and start studying smarter.
+            </p>
+            <div class="download-buttons">
+                <a href="#" class="btn-download btn-ios">
+                    <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" style="color: var(--accent-light);">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div class="btn-download-content">
+                        <span class="btn-download-label">iOS</span>
+                        <span class="btn-download-sublabel">Coming Soon</span>
+                    </div>
+                </a>
+                <a href="#" class="btn-download btn-android">
+                    <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" style="color: var(--green-accent);">
+                        <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.463 11.463 0 00-8.94 0L5.65 5.67c-.19-.29-.55-.38-.84-.22-.31.16-.42.54-.26.85L6.4 9.48A10.78 10.78 0 002 18h20a10.78 10.78 0 00-4.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/>
+                    </svg>
+                    <div class="btn-download-content">
+                        <span class="btn-download-label">Android</span>
+                        <span class="btn-download-sublabel">Coming Soon</span>
+                    </div>
+                </a>
+                <a href="#" class="btn-download btn-windows">
+                    <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" style="color: #00adef;">
+                        <path d="M3 12V6.5l8-1.1V12H3zm0 .5h8v6.6l-8-1.1V12.5zM11.5 5.3l9.5-1.3v8h-9.5V5.3zM21 12.5h-9.5v6.7l9.5 1.3v-8z"/>
+                    </svg>
+                    <div class="btn-download-content">
+                        <span class="btn-download-label">Windows</span>
+                        <span class="btn-download-sublabel">Coming Soon</span>
+                    </div>
+                </a>
+                <a href="#" class="btn-download btn-macos">
+                    <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor" style="color: var(--text-secondary);">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div class="btn-download-content">
+                        <span class="btn-download-label">macOS</span>
+                        <span class="btn-download-sublabel">Coming Soon</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="terms.html">Terms of Use</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="mailto:support@coursesync.dev">Contact</a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 CourseSync</p>
+        </div>
+    </footer>
+
+    <script>
+        // Close mobile nav when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+
+        // Billing toggle
+        (function() {
+            var toggle = document.getElementById('billing-toggle');
+            var monthlyLabel = document.getElementById('monthly-label');
+            var annualLabel = document.getElementById('annual-label');
+            var isAnnual = false;
+
+            toggle.addEventListener('click', function() {
+                isAnnual = !isAnnual;
+                toggle.classList.toggle('active', isAnnual);
+                monthlyLabel.classList.toggle('billing-label-active', !isAnnual);
+                annualLabel.classList.toggle('billing-label-active', isAnnual);
+
+                document.querySelectorAll('.pricing-price[data-monthly]').forEach(function(el) {
+                    var monthly = parseInt(el.getAttribute('data-monthly'));
+                    var annual = parseInt(el.getAttribute('data-annual'));
+                    var price = isAnnual ? annual : monthly;
+                    if (price === 0) {
+                        el.innerHTML = '$0';
+                    } else {
+                        el.innerHTML = '$' + price + '<span>/mo</span>';
+                    }
+                });
+            });
+        })();
+    </script>
+</body>
+</html>

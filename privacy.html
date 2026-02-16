@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CourseSync Privacy Policy">
+    <meta name="theme-color" content="#0a0e17">
+    <title>Privacy Policy — CourseSync</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">CourseSync</a>
+            <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Toggle navigation">&#9776;</button>
+            <div class="nav-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="index.html#download" class="nav-cta">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Privacy Content -->
+    <main class="legal-page">
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="legal-updated">Last updated: February 15, 2026</p>
+
+        <p class="legal-intro">
+            CourseSync ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the CourseSync application.
+        </p>
+
+        <div class="legal-section">
+            <h2>1. Information We Collect</h2>
+            <p>
+                <strong>Account Information:</strong> When you create an account, we collect your email address for authentication via magic link sign-in.
+            </p>
+            <p>
+                <strong>Device Information:</strong> We collect a device identifier (UUID), device name, and platform type to manage your registered devices and enforce subscription device limits.
+            </p>
+            <p>
+                <strong>LMS Credentials:</strong> Your Canvas API token and Learning Suite session credentials are stored locally on your device in encrypted secure storage. These credentials are never transmitted to our servers.
+            </p>
+            <p>
+                <strong>Course Data:</strong> Courses, assignments, announcements, grades, and documents synced from your learning management systems are stored locally on your device.
+            </p>
+            <p>
+                <strong>Chat Messages:</strong> When you use the AI chat feature with our managed service, your messages are transmitted through our servers to third-party AI providers and are stored on our servers until you delete them.
+            </p>
+            <p>
+                <strong>API Keys (BYOK):</strong> If you use the Bring Your Own Key tier, your API keys are stored locally on your device in encrypted secure storage and are never sent to our servers. Messages in BYOK mode are sent directly from your device to your chosen AI provider.
+            </p>
+        </div>
+
+        <div class="legal-section">
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the information we collect to:</p>
+            <ul>
+                <li>Sync your courses, assignments, and documents from Canvas LMS and BYU Learning Suite</li>
+                <li>Provide AI-powered chat assistance about your course materials</li>
+                <li>Track usage to enforce subscription tier limits</li>
+                <li>Manage your account and registered devices</li>
+                <li>Process payments through Stripe</li>
+                <li>Sync your settings and chat history across your devices</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>3. Third-Party Services</h2>
+            <p>We use the following third-party services to operate CourseSync:</p>
+            <ul>
+                <li><strong>AI Providers (OpenAI, Anthropic, Google):</strong> Your chat messages are forwarded to these providers to generate AI responses. Each provider has its own privacy policy governing how they handle data.</li>
+                <li><strong>Stripe:</strong> Processes subscription payments. We do not store your payment card details.</li>
+                <li><strong>Cloudflare:</strong> Hosts our backend services.</li>
+                <li><strong>Resend:</strong> Sends authentication emails (magic links) to your email address.</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>4. Data Storage &amp; Security</h2>
+            <p>
+                <strong>Local Data:</strong> Credentials, API keys, and preferences are stored in platform-encrypted secure storage (Keychain on iOS/macOS, EncryptedSharedPreferences on Android). Course data, documents, and embeddings are stored in a local database on your device.
+            </p>
+            <p>
+                <strong>Server Data:</strong> Our backend stores your account information, device registrations, usage counts, subscription status, and chat messages. Backend data is hosted on Cloudflare infrastructure.
+            </p>
+        </div>
+
+        <div class="legal-section">
+            <h2>5. Data Retention</h2>
+            <ul>
+                <li>Chat messages are retained on our servers until you delete them.</li>
+                <li>Usage counts reset at the beginning of each billing period.</li>
+                <li>When you delete your account, all associated data is permanently removed from our servers, including chat messages, device registrations, and usage history.</li>
+                <li>Local data on your device can be cleared at any time through the app settings.</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>6. Children's Privacy</h2>
+            <p>
+                CourseSync is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child under 13 has provided us with personal information, please contact us at <a href="mailto:support@coursesync.dev">support@coursesync.dev</a> and we will promptly delete that information.
+            </p>
+        </div>
+
+        <div class="legal-section">
+            <h2>7. Cookies &amp; Session Data</h2>
+            <p>
+                CourseSync stores Learning Suite session cookies locally on your device to maintain your authenticated session. These cookies are stored in encrypted secure storage and are only used to communicate with BYU Learning Suite on your behalf. They are not shared with any third party.
+            </p>
+        </div>
+
+        <div class="legal-section">
+            <h2>8. Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access your data through the app</li>
+                <li>Delete your account and all associated data at any time via Settings &gt; Manage Account</li>
+                <li>Clear local data (courses, documents, chats) at any time via Settings &gt; Data Management</li>
+                <li>Remove individual devices from your account</li>
+                <li>Opt out of managed AI services by using the BYOK tier, which sends messages directly to your chosen provider without passing through our servers</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>9. Changes to This Policy</h2>
+            <p>
+                We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date and, where appropriate, providing notice within the app.
+            </p>
+        </div>
+
+        <div class="legal-section legal-contact">
+            <h2>10. Contact Us</h2>
+            <p>
+                If you have questions about this Privacy Policy or your data, please contact us at <a href="mailto:support@coursesync.dev">support@coursesync.dev</a>.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="mailto:support@coursesync.dev">Contact</a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 CourseSync</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-links a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
